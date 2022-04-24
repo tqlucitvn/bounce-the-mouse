@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BirdController : MonoBehaviour
+public class MoveLeft : MonoBehaviour
 {
     public float speed = 30.0f;
-    Rigidbody2D birdRb;
+    Rigidbody2D rigidBody;
     // void Awake()
     // {
     //     birdRb = GetComponent<Rigidbody2D>();
@@ -13,13 +13,13 @@ public class BirdController : MonoBehaviour
 
     void Start()
     {
-        birdRb = GetComponent<Rigidbody2D>();
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        birdRb.transform.Translate(Vector2.left * Time.deltaTime * speed);
+        rigidBody.transform.Translate(Vector2.left * Time.deltaTime * speed);
         // birdRb.MovePosition(Vector2.left * Time.deltaTime * speed);
     }
 }
