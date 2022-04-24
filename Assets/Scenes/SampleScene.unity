@@ -394,63 +394,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf00e5cf67b09a7428e47123855b9d35, type: 3}
---- !u!1001 &6069747791253228964
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 65032074166258586, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_Name
-      value: MeowProjectile
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4417439935778347577, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
 --- !u!1001 &7975523642853943467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -458,6 +401,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -362796275581219004, guid: a246c489caf47de41a47c09f20893493, type: 3}
+      propertyPath: launchForce
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1203706762327776186, guid: a246c489caf47de41a47c09f20893493, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -506,6 +453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meow
       objectReference: {fileID: 0}
+    - target: {fileID: 8649486716552438457, guid: a246c489caf47de41a47c09f20893493, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a246c489caf47de41a47c09f20893493, type: 3}
 --- !u!1001 &8888307491047738068
@@ -526,6 +477,10 @@ PrefabInstance:
     - target: {fileID: 8888307491513944371, guid: 70455cec30079ed4b8d0d64f035af397, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888307491513944371, guid: 70455cec30079ed4b8d0d64f035af397, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8888307491513944381, guid: 70455cec30079ed4b8d0d64f035af397, type: 3}
       propertyPath: m_RootOrder

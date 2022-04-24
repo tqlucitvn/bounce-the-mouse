@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1203706762327776186}
   - component: {fileID: 1135744635351647825}
-  m_Layer: 0
+  - component: {fileID: -362796275581219004}
+  m_Layer: 6
   m_Name: Meow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,3 +83,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-362796275581219004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649486716552438457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189bf78409dbc244990d861dad374d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startDelay: 2
+  fireRate: 2
+  projectilePrefab: {fileID: 65032074166258586, guid: 2085fc78d53c1ff40ae6bcf8946812b9, type: 3}
+  launchForce: 50
